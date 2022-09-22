@@ -30,11 +30,11 @@ using namespace std;
 int main(){
 
     //Reading
-    int loanAmount = ReadNumberPositiveInt("Enter a Loan Amount: ");
-    int monthlyPayment = ReadNumberPositiveInt("Enter a Monthly Payment: ");
+    float loanAmount = ReadNumberPositiveInt("Enter a Loan Amount: ");
+    float monthlyPayment = ReadNumberPositiveInt("Enter a Monthly Payment: ");
 
     //Calculating
-    int totalMonths = ToatalMonths(loanAmount, monthlyPayment);
+    float totalMonths = ToatalMonths(loanAmount, monthlyPayment);
 
     // Printing
     PrintNumberIntWithDoubleMsg("Loan Amount = ",loanAmount , ".");

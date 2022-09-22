@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std; 
 
-int ReadNumberPositiveInt(string msgToUser){
+float ReadNumberPositiveInt(string msgToUser){
 
     int number = 0;
   
