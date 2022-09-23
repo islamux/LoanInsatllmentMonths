@@ -2,7 +2,7 @@
 using namespace std;
 
 
-int ToatalMonths(float loan, float monthlyPayment){
+float ToatalMonths(float loan, float monthlyPayment){
 
-    return loan / monthlyPayment;
+    return  (float) loan /monthlyPayment;
 }
